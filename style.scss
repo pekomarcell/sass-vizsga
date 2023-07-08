@@ -1,0 +1,78 @@
+body{
+    background-color: #000;
+
+}
+
+$bg-one: #dcb499;
+$bg-two: #c0997f;
+$fnt-clr: #fff;
+$pdg: 15px;
+$btm: minimal-bottom;
+$mrgn: 20px 0px;
+
+
+.nav{
+    background-color: $bg-one;
+    backdrop-filter: blur(12px);
+    position: sticky-top;
+    box-shadow: $btm;
+    padding: $pdg;
+    display: flex;
+    justify-content: center;   
+}
+
+
+.menu-items{
+    display: inline-block;
+    padding: 8px 20px;
+    font-weight: 400px;
+    color: $fnt-clr;
+
+}
+
+.menu-items:hover {
+    background-color: #f3f3f3;
+    text-shadow: $btm;
+    font-size: $pdg;
+  }
+
+.container{
+    background-color: $bg-two;
+    width: 1320px;
+    margin: $mrgn;
+    padding: $pdg;
+}
+
+.title{
+    color: $fnt-clr;
+    font-size: h2;
+    padding: $pdg;
+}
+
+.text-box{
+    padding: $pdg;
+    box-shadow: $btm;
+    color: $fnt-clr;
+    font-size: $pdg;
+    background-color: $bg-two;
+}
+
+.form{
+    padding: $pdg;
+    box-shadow: $btm;
+    color: $fnt-clr;
+    font-size: $pdg;
+    background-color: $bg-two;
+    margin: $mrgn;
+}
+
+footer{
+    padding: $pdg;
+    box-shadow: $btm;
+    color: $fnt-clr;
+    font-size: $pdg;
+    background-color: $bg-one;
+    margin: $mrgn;
+}
+
+
